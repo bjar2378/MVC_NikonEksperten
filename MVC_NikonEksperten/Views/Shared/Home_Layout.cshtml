@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/css/skeleton.css" rel="stylesheet" />
+    <link href="~/css/normalize.css" rel="stylesheet" />
+    <link href="~/css/Home.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="twelve columns row">
+            <div class="header twelve columns row">
+                <img src="~/images/NIKONexperten.jpg" />
+            </div>
+            <nav class="twelve columns row">
+                <hr />
+                <ul>
+                    <li>
+                        <a href="#">Hjem</a>
+                    </li>
+                    <li>
+                        <a href="#">Produkter</a>
+                    </li>
+                    <li>
+                        <a href="#">Om os</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+                <hr />
+            </nav>
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

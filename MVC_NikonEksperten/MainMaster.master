@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMaster.master.cs" Inherits="MainMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server" />
+
+            
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Your page title here :)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/skeleton.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <link href="css/navstylesheet.css" rel="stylesheet" />
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!--Javascript
+    -------------------------------------------------- -->
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div class="container">
+
+
+        <div class="row navrow">
+            <div class="logoholder three columns">
+                <a href="Default.aspx">
+                <img src="images/test-factory-logo.jpg" class="u-max-full-width" />
+                </a>
+            </div>
+            <nav class="nine columns">
+                <ul class="u-pull-right">
+                    <li>
+                        <a href="default.aspx"><i class="fa fa-home"></i>Hjem</a>             
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-users"></i>BLOO</a>
+                    </li>                   
+                    <li>
+                        <a href="#"><i class="fa fa-picture-o"></i>BLAA</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-envelope-o"></i>BLAAA</a>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+                
+</div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      
+    
+
+        <hr />
+        <h2>FOOTER UNDER OPBYGNING</h2>
+    </form>
+</body>
+</html>
