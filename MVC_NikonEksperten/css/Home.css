@@ -22,3 +22,9 @@ a, a:hover, a:after, a:active {
 hr {
   margin: 5px 0px 5px 0px !important; }
 
+footer {
+  background-color: #e0d4be; }
+
+.footertextholder {
+  margin-left: 30px; }
+

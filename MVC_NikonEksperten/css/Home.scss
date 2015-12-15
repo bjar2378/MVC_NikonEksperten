@@ -1,11 +1,14 @@
-﻿body {
+﻿$barcolor:#e0d4be;
+
+
+body {
     background-color:#494949;
 }
 .container{
     margin-top:20px;
 }
 nav{
-    background-color:#e0d4be;
+    background-color:$barcolor;
     margin:0px !important;
 }
 li{
@@ -21,4 +24,10 @@ a, a:hover, a:after, a:active{
 }
 hr{
     margin:5px 0px 5px 0px !important;
+}
+footer{
+    background-color:$barcolor;
+}
+.footertextholder{
+    margin-left:30px;
 }
