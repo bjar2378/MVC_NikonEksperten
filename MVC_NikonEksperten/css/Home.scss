@@ -1,11 +1,17 @@
-﻿body {
+﻿$barcolor:#e0d4be;
+
+
+body {
     background-color:#494949;
+}
+.header{
+    margin-bottom:-10px !important;
 }
 .container{
     margin-top:20px;
 }
 nav{
-    background-color:#e0d4be;
+    background-color:$barcolor;
     margin:0px !important;
 }
 li{
@@ -21,4 +27,27 @@ a, a:hover, a:after, a:active{
 }
 hr{
     margin:5px 0px 5px 0px !important;
+}
+footer{
+    background-color:$barcolor;
+}
+.footertextholder{
+    margin-left:30px;
+}
+.container{
+    background-color:white;
+}
+.produkt{
+    border:1px solid #ff6a00;
+    background-color:#1d1d1d;
+    height:250px;
+}
+.h4forside{
+    color:#fcaf3d;
+    margin:0 !important;
+}
+.pforside{
+    margin:0 !important;
+    color:white;
+    font-size:13px;
 }
