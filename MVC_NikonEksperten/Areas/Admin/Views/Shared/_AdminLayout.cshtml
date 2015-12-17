@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Areas/Admin/content/CMSMail.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/content/StyleSheet.css" rel="stylesheet" />
+    <link href="~/css/skeleton.css" rel="stylesheet" />
+    <link href="~/css/normalize.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <header>
+            <span class="BigFont"></span>
+        </header>
+        <div class="row">
+            <div class="two columns">
+
+
+
+                <div>
+                    <div id="divMenu">
+                        <ul>
+                            <li>
+                                <a href="#">Kategorier</a>
+                                <ul>
+                                    <li><a href="">Opret</a></li>
+                                    <li><a href="RedigerKategori.aspx">Rediger / Slet</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Produkter</a>
+                                <ul>
+                                    <li><a href="OpretProdukt.aspx">Opret</a></li>
+                                    <li><a href="ProduktSletRediger.aspx">Rediger / Slet</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Sider</a>
+                                <ul>
+                                    <li><a href="RedigerForside.aspx">Home</a></li>
+                                    <li><a href="RedigerInformation.aspx">Information</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Kontakt</a>
+                                <ul>
+                                    <li><a href="KontaktRediger.aspx">Kontakt</a></li>
+                                    <li><a href="#">Formular</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Brugere</a>
+                                <ul>
+                                    <li><a href="OpretBruger.aspx">Opret</a></li>
+                                    <li><a href="RedigerSletBruger.aspx">Rediger / Slet</a></li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Log-Ud</a>
+                                <ul>
+                                    <li><a href="#">Vis Side</a></li>
+                                    <li><a href="#">Min Profil</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+            <div class="ten columns">
+
+                @RenderBody()
+            </div>
+            </div>
+            </div>
+</body>
+</html>

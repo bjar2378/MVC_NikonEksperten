@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Admin\content\CMSMail.css" />
     <Content Include="css\Home.css">
       <DependentUpon>Home.scss</DependentUpon>
     </Content>
@@ -97,6 +98,7 @@
     </Content>
     <Content Include="css\normalize.css" />
     <Content Include="css\skeleton.css" />
+    <Content Include="Areas\Admin\content\StyleSheet.css" />
     <Content Include="Global.asax" />
     <Content Include="images\favicon.png" />
     <Content Include="images\NIKONexperten.jpg" />
@@ -104,10 +106,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AreasAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\aDefaultController.cs" />
+    <Compile Include="Areas\Admin\Controllers\aKategoriController.cs" />
+    <Compile Include="Areas\Admin\Controllers\aProdukterController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProduktController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Uploader.cs" />
     <Compile Include="MainMaster.master.cs">
       <DependentUpon>MainMaster.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -121,10 +129,17 @@
     <Content Include="MainMaster.master" />
     <Content Include="css\Home.scss" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\aKategori\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\aKategori\EditForm.cshtml" />
+    <Content Include="Areas\Admin\Views\aKategori\EditResult.cshtml" />
+    <Content Include="Areas\Admin\Views\aKategori\Index.cshtml" />
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </Content>
+    <Content Include="Views\Produkt\ProduktListe.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -134,7 +149,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\aDefault\" />
+    <Folder Include="Areas\Admin\Views\aProdukter\" />
+    <Folder Include="Areas\Admin\Views\aProdukt\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RepoNE\RepoNE.csproj">
+      <Project>{926d4c0e-9149-4647-a8d6-4f205100cd94}</Project>
+      <Name>RepoNE</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

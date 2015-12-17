@@ -1,0 +1,271 @@
+﻿*{
+
+}
+body {
+    font-family: Arial, Verdana,sans-serif;
+    
+    
+}
+
+.pic{
+    width:45px;
+    height:35px;
+}
+
+.tdborder{
+    border:1px solid black;
+}
+
+
+.backgroundBanner{
+    background-color:#c7cbcc;
+    width:1500px;
+    height: 127px;
+    
+}
+
+
+.Menu{
+    
+    
+}
+.OverskrifterColor{
+   color:#fd8002;
+   font-weight:bold;
+}
+
+.bannerBorder{
+    border-radius: 15px 15px 0px 0px;
+}
+
+li{
+    list-style:none;
+    
+    
+}
+
+ul li a{
+  text-decoration:none; 
+  
+}
+
+
+
+
+ul{
+   
+}
+
+
+.leftBox{
+    border-right: 2px solid #ededed;
+    min-height:425px;
+    padding-top:5px;
+    
+}
+
+
+
+.rightBox{
+    border-left:2px solid #ededed;
+    min-height:425px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:15px;
+}
+
+.ulBox{
+    
+    
+   
+   
+}
+
+.ulBox2{
+    
+   margin:5px;
+}
+
+.søgBox{
+    border-bottom:1px solid black;
+    margin-left:20px;
+    
+}
+
+a:link{
+    color:#767676;
+    text-decoration:none;
+}
+
+
+a:visited{
+    color:#767676;
+}
+a:hover{
+    color:green;
+     text-decoration:none;
+    
+     
+}
+
+a:active{
+    color:black;
+     text-decoration:none;
+}
+
+
+
+footer{
+    clear:both;
+    background-color:#c7cbcc;
+    border-radius:0px 0px 10px 10px;
+    border-top:2px solid #ededed;
+    
+}
+
+.border{
+    border: 1px solid black;
+    border-radius: 17px 17px 12px 12px;
+    
+}
+
+.liMargin{
+    margin-left:-20px;
+}
+
+.Overskrifter{
+    margin-left:20px;
+    font-weight:bold;
+}
+
+p{
+    font-size:12px;
+    
+}
+
+.tekstMarginForside{
+    margin-top:-45px;
+    font-size:8px;
+    
+}
+
+.FooterMargin{
+    margin-left:160px;
+    color:#7e7e7e;
+    font-size:12px;
+}
+
+.hr{
+    margin-top:-23px;
+    border:1px solid #ededed;
+}
+
+.hr1{
+    border:1px solid #ededed;
+}
+
+.hr2{
+    border:1px solid #ededed;
+    margin-top:-3px;
+}
+
+.advsog{
+    font-size:14px;
+    margin-left:4px;
+    
+    color:#d4d4d4;
+}
+
+.kontaktMargin{
+    margin-top:50px;
+}
+
+.floatRight{
+        float:right;
+    }
+
+.floatLeft{
+        float:left;
+    }
+
+.small{
+    font-size:12px;
+}
+
+.margintop{
+    margin-top:-200px;
+    margin-right:-20px;
+}
+
+.marginprod{
+    margin-top:-2px;
+    border: 1px solid #ededed;
+}
+
+.prodBorder{
+    border: 2px solid #ededed;
+}
+
+.padding{
+    padding:15px;
+}
+
+
+
+.CMS{
+    background-color:white;
+    width:300px;
+    height:210px;
+    border-radius:2px;
+    
+    
+    
+}
+
+.cmsMargin{
+    margin-top:20px;
+}
+
+.LoginBoxColor{
+    border: 1px solid black;
+    border-radius:4px;
+}
+
+
+.wrapper{
+    margin:0 auto 0 auto;
+    width: 100%;
+    height:100%;
+}
+
+.ContentBox{
+    min-height:100px;
+    border-right:1px solid black;
+    border-left:1px solid black;
+
+    
+}
+
+.PicRight{
+    float:right;
+}
+
+TextLeft{
+    float:left;
+}
+
+.fontSmall{
+    font-size:8px;
+}
+
+.NoPadding{
+    padding:5px;
+}
+
+.OnePadding{
+    padding-right:0px;
+}
+
+.center{
+    text-align: center;
+}

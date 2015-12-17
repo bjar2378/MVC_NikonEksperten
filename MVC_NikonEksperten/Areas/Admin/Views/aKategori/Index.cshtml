@@ -1,0 +1,27 @@
+﻿@model RepoNE.Kategori
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Opet en kategori</h2>
+
+<form name="myForm" action="/Admin/aKategori/AddKat/" enctype="multipart/form-data" method="post">
+    <table>
+        <tr>
+            <td>Navn: </td>
+            <td><input id="Navn" type="text" name="Navn" /></td>
+
+        </tr>
+        
+        <tr>
+
+            <td><input id="Submit1" type="submit" value="Opret" /></td>
+            <td>@ViewBag.MSG</td>
+        </tr>
+    </table>
+
+
+
+
+</form>
