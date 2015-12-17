@@ -1,6 +1,9 @@
 ﻿body {
   background-color: #494949; }
 
+.header {
+  margin-bottom: -10px !important; }
+
 .container {
   margin-top: 20px; }
 
@@ -27,4 +30,21 @@ footer {
 
 .footertextholder {
   margin-left: 30px; }
+
+.container {
+  background-color: white; }
+
+.produkt {
+  border: 1px solid #ff6a00;
+  background-color: #1d1d1d;
+  height: 250px; }
+
+.h4forside {
+  color: #fcaf3d;
+  margin: 0 !important; }
+
+.pforside {
+  margin: 0 !important;
+  color: white;
+  font-size: 13px; }
 

@@ -98,8 +98,15 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\skeleton.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\Banner01.jpg" />
+    <Content Include="images\CoolPixS800C.jpg" />
+    <Content Include="images\D3200.jpg" />
     <Content Include="images\favicon.png" />
+    <Content Include="images\Manfrotto701.jpg" />
     <Content Include="images\NIKONexperten.jpg" />
+    <Content Include="images\R1C1.jpg" />
+    <Content Include="images\SB700.jpg" />
+    <Content Include="images\SP24-70.jpg" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
