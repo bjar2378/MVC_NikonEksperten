@@ -99,6 +99,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\skeleton.css" />
     <Content Include="Areas\Admin\content\StyleSheet.css" />
+    <Content Include="css\skeletonFRONTEND.css" />
     <Content Include="Global.asax" />
     <Content Include="images\Banner01.jpg" />
     <Content Include="images\CoolPixS800C.jpg" />
