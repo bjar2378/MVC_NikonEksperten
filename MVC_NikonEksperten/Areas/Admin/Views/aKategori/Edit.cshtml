@@ -6,10 +6,11 @@
 }
 
 <h2>Edit</h2>
-
-<ul>
-    @foreach(Kategori kat in Model)
-    {
-        <li>@kat.Navn<a href="/Admin/aKategori/EditForm/@kat.ID/">Rediger</a> <a href="/Admin/aKategori/Delete/@kat.ID/">Slet</a></li>
-    }
-</ul>
+<table>
+    <ul>
+        @foreach (Kategori kat in Model)
+        {
+            <li>@kat.Navn - <a href="/Admin/aKategori/EditForm/@kat.ID/">Rediger</a> <a href="/Admin/aKategori/Delete/@kat.ID/">Slet</a><hr /></li>
+        }
+    </ul>
+</table>

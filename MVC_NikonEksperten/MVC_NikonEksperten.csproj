@@ -143,6 +143,10 @@
     <Content Include="Areas\Admin\Views\aKategori\EditForm.cshtml" />
     <Content Include="Areas\Admin\Views\aKategori\EditResult.cshtml" />
     <Content Include="Areas\Admin\Views\aKategori\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\aProdukter\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\aProdukter\EditForm.cshtml" />
+    <Content Include="Areas\Admin\Views\aProdukter\AddResult.cshtml" />
+    <Content Include="Areas\Admin\Views\aProdukter\EditList.cshtml" />
     <None Include="compilerconfig.json" />
     <Content Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
@@ -159,7 +163,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\aDefault\" />
-    <Folder Include="Areas\Admin\Views\aProdukter\" />
     <Folder Include="Areas\Admin\Views\aProdukt\" />
     <Folder Include="Models\" />
   </ItemGroup>

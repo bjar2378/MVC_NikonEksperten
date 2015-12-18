@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RepoNE;
+using System.IO;
 
 namespace MVC_NikonEksperten.Areas.Admin.Controllers
 {
@@ -11,6 +12,7 @@ namespace MVC_NikonEksperten.Areas.Admin.Controllers
     {
 
         private KategoriFac katFac = new KategoriFac();
+        
         // GET: Admin/aKategori
         public ActionResult Index()
         {
@@ -57,5 +59,7 @@ namespace MVC_NikonEksperten.Areas.Admin.Controllers
             katFac.Delete(id);
             return RedirectToAction("Edit");
         }
+
+        
     }
 }
